@@ -1,0 +1,44 @@
+<div class="item">
+    <div>Nome</div>
+    <div>
+        <input type="text" name="name" value="{{ member.name }}">
+    </div>
+</div>
+
+<div class="item">
+    <div>Avatar URL</div>
+    <div>
+        <input type="url" name="avatar_url" placeholder="http://" value="{{ member.avatar_url }}">
+    </div>
+</div>
+
+<div class="item">
+    <div>Email</div>
+    <div>
+        <input type="email" name="mail" value="{{ member.mail }}">
+    </div>
+</div>
+
+<div class="item">
+    <div>Data de nascimento</div>
+    <div>
+        <input type="date" name="birth" placeholder="dd/mm/yyyy" value="{{ member.birth }}">
+    </div>
+</div>
+
+<div class="item">
+    <div>Sexo</div>
+    <div>
+        <span><input type="radio" name="gender" value="M" {% if member.gender == "M" %} checked {% endif %}> Masculino</span>
+        <span><input type="radio" name="gender" value="F" {% if member.gender == "F" %} checked {% endif %}> Feminino</span>
+    </div>
+</div>
+
+<div class="item">
+    <div>Modalidades desejadas</div>
+    <div>
+        <input type="text" name="modalidades" placeholder="Separe as modalidades com vírgula" value="{{ member.modalidades }}">
+    </div>
+</div>
+
+<button type="submit">Salvar</button>

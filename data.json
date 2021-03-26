@@ -1,0 +1,44 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "name": "Gabriela",
+      "mail": "gabi@gmail.com",
+      "avatar_url": "https://images.unsplash.com/photo-1496440737103-cd596325d314?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60",
+      "birth": 889326000000,
+      "gender": "F",
+      "modalidades": "pilates, yoga",
+      "created_at": 1584812947349
+    },
+    {
+      "id": 2,
+      "name": "Thalita",
+      "mail": "thalita@gmail.com",
+      "avatar_url": "https://images.unsplash.com/photo-1513791149369-f88da26c8e93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+      "birth": 1167616800000,
+      "gender": "F",
+      "modalidades": "youtube, tiktok",
+      "created_at": 1584813633651
+    }
+  ],
+  "instructors": [
+    {
+      "id": 1,
+      "name": "Thales",
+      "avatar_url": "https://images.unsplash.com/photo-1472071341375-1edd37e36921?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80",
+      "birth": "920948400000",
+      "gender": "M",
+      "services": "crossfit, musculação, MMA",
+      "created_at": 1584812834156
+    },
+    {
+      "id": 2,
+      "name": "Vilmar",
+      "avatar_url": "https://images.unsplash.com/photo-1535213679542-f42b6f164647?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80",
+      "birth": null,
+      "gender": "M",
+      "services": "cerveja, futebol",
+      "created_at": 1584813499575
+    }
+  ]
+}
